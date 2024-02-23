@@ -1,0 +1,25 @@
+[
+    {
+        "role": "Lead Frontend Developer",
+        "orgainzation": "Sparksites Studios",
+        "startDate": "Januray, 2024",
+        "endDate": "Present",
+        "experiences": [
+            "Implement advanced Frontend technologies, frameworks, CMS to deliver high-quality web solutions.",
+            "Cooperate with other Frontend developers to complete projects.",
+            "Implement testing processes to maintain code quality and cross-browser compatibility."
+            ],
+        "imageSrc": "history/sparksites.png"
+    },
+    {
+        "role": "React Developer Intern",
+        "orgainzation": "Intern Career",
+        "startDate": "Januray, 2024",
+        "endDate": "February, 2024",
+        "experiences": [
+            "Developed and deployed a React component library using Storybook and NPM packages.",
+             "Developed an E-commerce website with React.js, Next.js, Sanity, Stripe."
+        ],
+        "imageSrc": "history/interncareer.png"
+    }
+]

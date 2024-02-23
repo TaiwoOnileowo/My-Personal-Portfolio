@@ -90,12 +90,8 @@ margin-right:10%;
 .more{
    margin-right: 20px;
    font-size: 18px;
-   background:
-     linear-gradient(
-        90deg, 
-     rgba(165,215,232,0.1)0%,
-     rgba(255,255,255,0.1) 100%
-    );
+   background: #19376d;
+  background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0) 100%);
     border-radius: 10px;
    padding:17px 26px;
    width: 300px;

@@ -3,11 +3,13 @@ import { getImageUrl } from "../../utilities";
 import styles from "./ProjectCard.module.css"
 export const ProjectCard=({project:{title, imageSrc,description,skills,demo,source}})=>{
     return(
-        <a className={styles.projectLink} href={demo}><div className={styles.container}>
+        <div className={styles.container}>
+            <a className={styles.projectLink} href={demo}>
             <img src={getImageUrl(imageSrc)}
              alt={` Image of ${title}`} className={styles.image} />
             <h3 className={styles.title}>{title}</h3>
             <p className={styles.description}> {description}</p>
+            </a >
             <ul className={styles.skills}>
                 {skills.map((skill,id)=>{
                     return(<li key={id} className={styles.skill}>{skill}</li>);
@@ -18,6 +20,7 @@ export const ProjectCard=({project:{title, imageSrc,description,skills,demo,sour
                 <a href={source} className={styles.link}>Source</a>
             </div>
 
-        </div></a >
+        
+        </div>
     )
 }

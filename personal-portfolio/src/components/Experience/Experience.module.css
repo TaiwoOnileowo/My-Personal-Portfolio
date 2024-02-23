@@ -19,13 +19,14 @@
 .content {
   display: flex;
   justify-content: space-evenly;
-  flex-direction: column;
+  flex-direction: row;
   margin-top: 14px;
 }
 .skills {
   display: flex;
   flex-wrap: wrap;
-  gap: 35px;
+  gap: 37px;
+  width: 45%;
 }
 .skill {
   display: flex;
@@ -46,9 +47,56 @@
   width: 70px;
 }
 .skill p {
-  font-size: 20px;
+  font-size: 25px;
   font-family: var(--font-roboto);
   font-weight: 500;
+}
+.history {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.historyItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 17px;
+  background: #19376d;
+  background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0) 100%);
+  border-radius: 10px;
+  padding: 24px;
+}
+.orgainzationLogoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 120px;
+}
+.orgainzationLogoContainer img {
+  max-width: 180px;
+  border-radius: 100%;
+}
+.historyItemDetails {
+  font-family: var(--font-roboto);
+}
+.historyItemDetails h3 {
+  font-size: 30px;
+  font-weight: 500;
+}
+.historyItemDetails p {
+  font-size: 20px;
+  font-weight: 300;
+}
+.historyItemDetails ul {
+  margin-top: 6px;
+  list-style-position: inside;
+  font-size: 25px;
+  list-style-type: disc;
+  margin-left: 17px;
+}
+.experience {
+  font-size: 20px;
 }
 @media screen and (max-width: 830px) {
   .container {
@@ -63,7 +111,11 @@
     width: 100%;
     flex-direction: row;
     justify-content: center;
-    gap: 25px;
+    /* gap: 25px; */
+  }
+  .history {
+    width: 100%;
+    gap: 9px;
   }
   .skill {
     gap: 5px;

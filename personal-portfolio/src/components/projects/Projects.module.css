@@ -1,0 +1,116 @@
+@import "../../vars.css";
+
+.container{
+margin-top:75px;
+color:var(--color-text);
+margin-left:10%;
+margin-right:10%;
+}
+
+.title{
+    font-size:35px;
+    font-weight:700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+}
+
+.projects{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap:15px;
+    width: 100%;
+}
+
+.nextButtonDiv{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-top: 50px;
+    padding-right: 20px;
+}
+
+
+.nextButton{
+    display: flex;
+    width:110px;
+    height:40px;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    font-size: 18px;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: var(--color-primary);
+    color:var(--color-text);
+    border-radius: 10px;
+    font-weight: 600;
+    padding:17px 26px;
+    border: none;
+    box-shadow:0 0 4px 0 rgba(0, 0, 0,0.25);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.nextButton:hover{
+    background-color: #3a4d6e;
+}
+.backButtonDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding-left: 20px;
+}
+.backButton{
+    display: flex;
+    width:110px;
+    height:40px;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    font-size: 18px;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: var(--color-primary);
+    color:var(--color-text);
+    border-radius: 10px;
+    font-weight: 600;
+    padding:17px 26px;
+    border: none;
+    box-shadow:0 0 4px 0 rgba(0, 0, 0,0.25);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.backButton:hover{
+    background-color: #3a4d6e;
+}
+.more{
+   margin-right: 20px;
+   font-size: 18px;
+   background:
+     linear-gradient(
+        90deg, 
+     rgba(165,215,232,0.1)0%,
+     rgba(255,255,255,0.1) 100%
+    );
+    border-radius: 10px;
+   padding:17px 26px;
+   width: 300px;
+   text-align: center;
+}
+@media screen and (max-width:830px){
+    .container{
+        margin-left: 3%;
+        margin-right: 3%;
+        
+    }
+    .more{
+        width:180px;
+        margin-right: 10px;
+        padding:17px 15px;
+    }
+    
+}

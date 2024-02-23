@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Rhoda Beddings",
+    "imageSrc": "projects/rhodabeddings.png",
+    "description": "A full fledged website developed for rhodabeddings business",
+    "skills": ["Wordpress"," CSS"],
+    "demo": "https://rhodabeddings.com.ng/"
+    
+  },
+  {
+    "title": "Hoobank",
+    "imageSrc": "projects/Hoobank.png",
+    "description": "A responsive modern landing page for hoobank company",
+    "skills": ["HTML","React","Tailwind CSS","CSS"],
+    "demo": "https://h00bankweb.netlify.app/"
+    
+  },
+  {
+    "title": "Drex Hosting Company",
+    "imageSrc": "projects/DREX.png",
+    "description": "A responsive landing page made for DREX hosting and domains company.",
+    "skills": ["HTML","React js","Tailwind CSS"],
+    "demo": "https://drexhosting.netlify.app/",
+    "source": "https://github.com/TaiwoOnileowo/DREX-hosting-and-domains"
+  },
+  {
+    "title": "VueLamp Company Responsive landing page",
+    "imageSrc": "projects/Vuelampwebsite.png",
+    "description": "This is a responsive landing page for Vuelamp company.",
+    "skills":["HTML", "CSS", "Javascript"],
+    "demo": "https://vuelamp-company-landingpage.netlify.app/",
+    "source": "https://github.com/TaiwoOnileowo/VueLamp-Company-Responsive-Landing-page"
+  },
+  {
+    "title": "Add to cart app",
+    "imageSrc": "projects/addtocartapp.png",
+    "description": "A simple web application for managing a shopping list with Firebase Realtime Database integration.",
+    "skills": ["HTML", "CSS","Javascript","Firebase"],
+    "demo": "https://add-t0-cart.netlify.app/",
+    "source": "https://github.com/TaiwoOnileowo/Add-To-Cart-App"
+  },
+    {
+      "title": "Tic Tac Toe game",
+      "imageSrc": "projects/Tictactoe.png",
+      "description": "This is a fun Tic Tac Toe game that can be enjoyed with people.",
+      "skills": ["HTML", "CSS", "Javascript"],
+      "demo": "https://tictact0egame.netlify.app/",
+      "source": "https://github.com/TaiwoOnileowo/Tic-Tac-Toe-game"
+    }
+  ]

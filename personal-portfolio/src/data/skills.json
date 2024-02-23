@@ -1,0 +1,48 @@
+[
+    {
+      "title": "HTML",
+      "imageSrc": "skills/html.png"
+    },
+    {
+      "title": "Javascript",
+      "imageSrc": "skills/javascript.png"
+    },
+    {
+      "title": "React",
+      "imageSrc": "skills/react.png"
+    },
+    {
+      "title": "CSS",
+      "imageSrc": "skills/css.png"
+    },
+    {
+      "title": "Firebase",
+      "imageSrc": "skills/firebase.png"
+    },
+    {
+      "title": "Figma",
+      "imageSrc": "skills/figma.png"
+    },
+    {
+      "title": "Canva",
+      "imageSrc": "skills/canva.png"
+    },
+    {
+      "title": "Bootstrap",
+      "imageSrc": "skills/bootstrap.png"
+    },
+    {
+      "title": "Tailwind CSS",
+      "imageSrc": "skills/tailwind-css-icon.png"
+    },
+    {
+      "title": "ReactBootstrap",
+      "imageSrc": "skills/react bootstrap.png"
+    },
+    
+    {
+      "title": "Wordpress",
+      "imageSrc": "skills/wordpress (4).png"
+    }
+    
+  ]

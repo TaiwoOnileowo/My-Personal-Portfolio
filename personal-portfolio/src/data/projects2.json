@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Tenzies",
+        "imageSrc": "projects/tenzies.png",
+        "description": "A fun tenzies game",
+        "skills": ["HTML", "CSS","React js"],
+        "demo": "https://tenz1ess.netlify.app/",
+        "source": "https://github.com/TaiwoOnileowo/Newsletter-sign-up"
+      },
+    {
+        "title": "Newsletter sign up",
+        "imageSrc": "projects/newsletter.png",
+        "description": "A simple Newsletter that grabs your email address and displays a success message",
+        "skills": ["HTML", "CSS","Javascript"],
+        "demo": "https://newsletter-s1gn-up.netlify.app/",
+        "source": "https://github.com/TaiwoOnileowo/Newsletter-sign-up"
+      },
+    {
+        "title": "Notes Editor",
+        "imageSrc": "projects/notes.png",
+        "description": "An application where you can write, edit and store notes",
+        "skills": ["HTML", "CSS","React js","Firebase"],
+        "demo": "https://noteseditor.netlify.app/",
+        "source": "https://github.com/TaiwoOnileowo/Newsletter-sign-up"
+      }
+]

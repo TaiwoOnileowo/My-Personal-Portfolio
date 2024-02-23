@@ -1,24 +1,45 @@
 [
     {
-      "title": "HTML",
+      "title": "HTML5",
       "imageSrc": "skills/html.png"
-    },
-    {
-      "title": "Javascript",
-      "imageSrc": "skills/javascript.png"
-    },
-    {
-      "title": "React",
-      "imageSrc": "skills/react.png"
     },
     {
       "title": "CSS",
       "imageSrc": "skills/css.png"
     },
     {
-      "title": "Firebase",
-      "imageSrc": "skills/firebase.png"
+      "title": "Javascript",
+      "imageSrc": "skills/javascript.png"
     },
+    {
+      "title": "React Js",
+      "imageSrc": "skills/react.png"
+    },
+    {
+      "title": "Next Js",
+      "imageSrc": "skills/nextjs.svg"
+    },
+    {
+      "title": "Tailwind CSS",
+      "imageSrc": "skills/tailwind-css-icon.png"
+    },
+    {
+      "title": "Bootstrap",
+      "imageSrc": "skills/bootstrap.png"
+    },
+    {
+      "title": "Wordpress",
+      "imageSrc": "skills/wordpress.png"
+    },
+    {
+      "title": "Sanity",
+      "imageSrc": "skills/sanity.svg"
+    },
+    {
+      "title": "Storybook",
+      "imageSrc": "skills/storybook.svg"
+    },
+   
     {
       "title": "Figma",
       "imageSrc": "skills/figma.png"
@@ -28,21 +49,7 @@
       "imageSrc": "skills/canva.png"
     },
     {
-      "title": "Bootstrap",
-      "imageSrc": "skills/bootstrap.png"
-    },
-    {
-      "title": "Tailwind CSS",
-      "imageSrc": "skills/tailwind-css-icon.png"
-    },
-    {
-      "title": "ReactBootstrap",
-      "imageSrc": "skills/react bootstrap.png"
-    },
-    
-    {
-      "title": "Wordpress",
-      "imageSrc": "skills/wordpress (4).png"
+      "title": "Firebase",
+      "imageSrc": "skills/firebase.png"
     }
-    
   ]

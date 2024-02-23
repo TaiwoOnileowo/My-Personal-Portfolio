@@ -4,12 +4,10 @@ Welcome to my personal portfolio! This repository contains the source code and a
 
 #About me
 
-I am Onileowo Taiwo, a professional Front-end developer who s passionate about creating web applications that are appealing to the sight
-
+I am Onileowo Taiwo, a creative, skilled and dilligent Frontend Developer with the zeal of creating visually appealing user interfaces and web applications. I love to learn new things.
 ## Features
-
--**Portfolio showcase**: View a collection of projects, showcasing my skills and expertise
--**Contact**: Reach out to me through the provided contact information
+**Portfolio showcase**: View a collection of projects, showcasing my skills and expertise
+**Contact**: Reach out to me through the provided contact information
 
 ## Technologies used
 
@@ -40,4 +38,4 @@ To set up and run this portfolio locally, follow these steps:
 
 ## Contact
 - Email: [taiwoonileowo17@gmail.com]
-- Linkedin: [Taiwo Onileowo]
+- Linkedin: [Taiwo Onileowo](https://www.linkedin.com/in/taiwo-onileowo/)

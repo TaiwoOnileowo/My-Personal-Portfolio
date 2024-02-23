@@ -3,24 +3,49 @@
         "title": "Tenzies",
         "imageSrc": "projects/tenzies.png",
         "description": "A fun tenzies game",
-        "skills": ["HTML", "CSS","React js"],
+        "skills": ["HTML5", "CSS","React"],
         "demo": "https://tenz1ess.netlify.app/",
         "source": "https://github.com/TaiwoOnileowo/Newsletter-sign-up"
       },
-    {
-        "title": "Newsletter sign up",
-        "imageSrc": "projects/newsletter.png",
-        "description": "A simple Newsletter that grabs your email address and displays a success message",
-        "skills": ["HTML", "CSS","Javascript"],
-        "demo": "https://newsletter-s1gn-up.netlify.app/",
-        "source": "https://github.com/TaiwoOnileowo/Newsletter-sign-up"
+      {
+        "title": "Add To Cart App",
+        "imageSrc": "projects/addtocartapp.png",
+        "description": "A simple web application for managing a shopping list",
+        "skills": ["HTML5", "CSS", "Javascript", "Firebase"],
+        "demo": "https://add-t0-cart.netlify.app/",
+        "source": "https://github.com/TaiwoOnileowo/Add-To-Cart-App"
       },
-    {
+      {
+        "title": "VueLamp Company Responsive Landing Page",
+        "imageSrc": "projects/Vuelampwebsite.png",
+        "description": "A responsive landing page for Vuelamp",
+        "skills":["HTML5", "CSS", "Javascript"],
+        "demo": "https://vuelamp-company-landingpage.netlify.app/",
+        "source": "https://github.com/TaiwoOnileowo/VueLamp-Company-Responsive-Landing-page"
+      },
+      {
         "title": "Notes Editor",
         "imageSrc": "projects/notes.png",
-        "description": "An application where you can write, edit and store notes",
-        "skills": ["HTML", "CSS","React js","Firebase"],
+        "description": "A Custom Notes Editor",
+        "skills": ["HTML5", "CSS","React","Firebase"],
         "demo": "https://noteseditor.netlify.app/",
         "source": "https://github.com/TaiwoOnileowo/Newsletter-sign-up"
+      },
+      {
+        "title": "Tic Tac Toe Game",
+        "imageSrc": "projects/Tictactoe.png",
+        "description": "A fun and visually appealing Tic Tac Toe game",
+        "skills": ["HTML5", "CSS", "Javascript"],
+        "demo": "https://tictact0egame.netlify.app/",
+        "source": "https://github.com/TaiwoOnileowo/Tic-Tac-Toe-game"
+      },
+    {
+        "title": "Newsletter Sign Up",
+        "imageSrc": "projects/newsletter.png",
+        "description": "A Newsletter Sign Up Form",
+        "skills": ["HTML5", "CSS", "Javascript"],
+        "demo": "https://newsletter-s1gn-up.netlify.app/",
+        "source": "https://github.com/TaiwoOnileowo/Newsletter-sign-up"
       }
+    
 ]

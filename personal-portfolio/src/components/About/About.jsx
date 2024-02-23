@@ -12,12 +12,13 @@ export const About =()=>{
                     <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor-icon" />
                     <div className={styles.itemText}>
                         <h3>Frontend Developer</h3>
-                        <p>I'm a frontend developer with experience
-                         in building respnsive and optimized sites.
+                        <p>
+                         I am a skilled Frontend Developer with experience
+                         in developing responsive, modern and visually-appealing websites and web applications.
                          </p>
                     </div>
                 </li>
-                <li className={styles.aboutItem}>
+                {/* <li className={styles.aboutItem}>
                     <img src={getImageUrl("about/uiIcon.png")} alt="UI-icon" />
                     <div className={styles.itemText}>
                         <h3>Web designer</h3>
@@ -25,7 +26,7 @@ export const About =()=>{
                             and experience of users using design tools.
                          </p>
                     </div>
-                </li>
+                </li> */}
             </ul>
             </div>
         </section>

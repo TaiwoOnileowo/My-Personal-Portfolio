@@ -18,15 +18,14 @@ export const About =()=>{
                          </p>
                     </div>
                 </li>
-                {/* <li className={styles.aboutItem}>
+                <li className={styles.aboutItem}>
                     <img src={getImageUrl("about/uiIcon.png")} alt="UI-icon" />
                     <div className={styles.itemText}>
-                        <h3>Web designer</h3>
-                        <p>I'm a Web designer who is familiar with improving the user interface 
-                            and experience of users using design tools.
+                        <h3>Technical Content Author</h3>
+                        <p>I love to break down complex technical topics and present them in an easy, approachable way for everyone to understand.
                          </p>
                     </div>
-                </li> */}
+                </li>
             </ul>
             </div>
         </section>

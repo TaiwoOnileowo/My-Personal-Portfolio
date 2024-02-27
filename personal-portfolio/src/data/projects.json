@@ -1,7 +1,7 @@
 [
   {
     "title": "SparkSites Studios",
-    "imageSrc": "projects/sparksites.png",
+    "imageSrc": "https://res.cloudinary.com/dixg66tpb/image/upload/f_webp/q_5/dpr_auto/zpz3gkcwobjupecrggdp.jpg",
     "description": "Sparksites Studios Official Website",
     "skills": ["React", "Tailwind CSS", "Email js", "Cloudinary"],
     "demo": "https://sparksitesstudios.netlify.app/",
@@ -9,7 +9,7 @@
   },
   {
     "title": "Hoobank",
-    "imageSrc": "projects/Hoobank.png",
+    "imageSrc": "https://res.cloudinary.com/dixg66tpb/image/upload/f_webp/q_5/dpr_auto/fmayex6bw2l9apgdy5xe.jpg",
     "description": "A responsive modern landing page for Hoobank ",
     "skills": ["React", "Tailwind CSS", "CSS"],
     "demo": "https://h00bankweb.netlify.app/",
@@ -17,7 +17,7 @@
   },
   {
     "title": "Deap Shopping Center",
-    "imageSrc": "projects/Deap.png",
+    "imageSrc": "https://res.cloudinary.com/dixg66tpb/image/upload/f_webp/q_5/dpr_auto/scx0tm7tvtnbjwfuwm7a.jpg",
     "description": "An E-commerce website for Deap Shopping Center",
     "skills": ["Next Js", "React","Sanity", "Stripe", "CSS"],
     "demo": "https://deapshoppingcenter.netlify.app/",
@@ -25,14 +25,14 @@
   },
   {
     "title": "Rhoda Beddings",
-    "imageSrc": "projects/rhodabeddings.png",
+    "imageSrc": "https://res.cloudinary.com/dixg66tpb/image/upload/f_webp/q_5/dpr_auto/tsaswg1uqoggkifqqgzz.jpg",
     "description": "Rhoda Beddings Official Website",
     "skills": ["Wordpress", "CSS"],
     "demo": "https://rhodabeddings.com.ng/"
   },
   {
     "title": "React Component Library",
-    "imageSrc": "projects/npm.png",
+    "imageSrc": "https://res.cloudinary.com/dixg66tpb/image/upload/f_webp/q_50/dpr_auto/c1vejdkpswslazieiyvb.jpg",
     "description": "A reusable and customizable React Component Library",
     "skills": ["React", "Storybook", "CSS Modules"],
     "demo": "https://www.npmjs.com/package/react-component-library097",
@@ -40,7 +40,7 @@
   },
   {
     "title": "Drex Hosting Company",
-    "imageSrc": "projects/DREX.png",
+    "imageSrc": "https://res.cloudinary.com/dixg66tpb/image/upload/f_webp/q_5/dpr_auto/p4htbieeavosiylffovm.jpg",
     "description": "A responsive landing page for DREX Hosting and Domains",
     "skills": ["React", "Tailwind CSS"],
     "demo": "https://drexhosting.netlify.app/",

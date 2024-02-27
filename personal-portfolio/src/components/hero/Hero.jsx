@@ -1,5 +1,4 @@
 import React from "react"
-import { getImageUrl } from "../../utilities"
 import styles from "./Hero.module.css"
 export const Hero=()=>{
     return (
@@ -13,7 +12,7 @@ export const Hero=()=>{
              </p>
              <a href="mailto:taiwoonileowo17@gmail.com" className={styles.contactBtn}>Contact Me</a>
         </div>
-        <img src={getImageUrl("hero/heroImage.png")} alt="Hero-image"className={styles.heroImg} />
+        <img src="https://res.cloudinary.com/dixg66tpb/image/upload/f_webp/q_auto/dpr_auto/lwfhqvfwk7d57sw786al.jpg" alt="Hero-image"className={styles.heroImg} />
         <div className={styles.topBlur}/>
         <div className={styles.BottomBlur}/>
 

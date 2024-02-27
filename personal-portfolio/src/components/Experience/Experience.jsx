@@ -28,7 +28,7 @@ export const Experience=()=>{
                      history.map((historyItem, id)=>{
                         return <li key={id} className={styles.historyItem}>
                             <div className={styles.orgainzationLogoContainer}>
-                            <img src={getImageUrl(historyItem.imageSrc)} alt={`${historyItem.orgainzation} logo` }/>
+                            <img src={historyItem.imageSrc} alt={`${historyItem.orgainzation} logo` }/>
                             </div>
                             <div className={styles.historyItemDetails}>
                                 <h3>{`${historyItem.role}, ${historyItem.orgainzation}`}</h3>

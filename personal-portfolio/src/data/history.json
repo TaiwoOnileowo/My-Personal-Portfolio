@@ -9,7 +9,7 @@
             "Cooperate with other Frontend developers to complete projects.",
             "Implement testing processes to maintain code quality and cross-browser compatibility."
             ],
-        "imageSrc": "history/sparksites.png"
+        "imageSrc": "https://res.cloudinary.com/dixg66tpb/image/upload/f_webp/q_5/dpr_auto/bbbbqgjfs494kia7vlw5.jpg"
     },
     {
         "role": "React Developer Intern",
@@ -20,6 +20,6 @@
             "Developed and deployed a React component library using Storybook and NPM packages.",
              "Developed an E-commerce website with React.js, Next.js, Sanity, Stripe."
         ],
-        "imageSrc": "history/interncareer.png"
+        "imageSrc": "https://res.cloudinary.com/dixg66tpb/image/upload/f_webp/q_auto/dpr_auto/bhdeipcmq1y3y4wzwxen.jpg"
     }
 ]

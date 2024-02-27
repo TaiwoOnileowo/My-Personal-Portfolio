@@ -26,6 +26,7 @@
 }
 .image {
   max-height: 135px;
+  width: 300px;
 }
 .description {
   margin-top: 6px;

@@ -1,5 +1,22 @@
 [
   {
+    "title": "Notes Editor",
+    "imageSrc": "https://res.cloudinary.com/dixg66tpb/image/upload/f_webp/q_5/dpr_auto/nx2f3m5dq1huivv7avtx.jpg",
+    "description": "A Custom Notes Editor",
+    "skills": ["HTML5", "CSS", "React", "Firebase"],
+    "demo": "https://noteseditor.netlify.app/",
+    "source": "https://github.com/TaiwoOnileowo/notes"
+  },
+
+  {
+    "title": "React Component Library",
+    "imageSrc": "https://res.cloudinary.com/dixg66tpb/image/upload/f_webp/q_50/dpr_auto/c1vejdkpswslazieiyvb.jpg",
+    "description": "A reusable and customizable React Component Library",
+    "skills": ["React", "Storybook", "CSS Modules"],
+    "demo": "https://www.npmjs.com/package/react-component-library097",
+    "source": "https://github.com/TaiwoOnileowo/React-Component-Library"
+  },
+  {
     "title": "Tenzies",
     "imageSrc": "https://res.cloudinary.com/dixg66tpb/image/upload/f_webp/q_20/dpr_auto/r8v79dppjn9p3x4qe17r.jpg",
     "description": "A fun tenzies game",
@@ -23,28 +40,13 @@
     "demo": "https://vuelamp-company-landingpage.netlify.app/",
     "source": "https://github.com/TaiwoOnileowo/VueLamp-Company-Responsive-Landing-page"
   },
-  {
-    "title": "Notes Editor",
-    "imageSrc": "https://res.cloudinary.com/dixg66tpb/image/upload/f_webp/q_5/dpr_auto/nx2f3m5dq1huivv7avtx.jpg",
-    "description": "A Custom Notes Editor",
-    "skills": ["HTML5", "CSS", "React", "Firebase"],
-    "demo": "https://noteseditor.netlify.app/",
-    "source": "https://github.com/TaiwoOnileowo/notes"
-  },
+
   {
     "title": "Tic Tac Toe Game",
-    "imageSrc": "https://res.cloudinary.com/dixg66tpb/image/upload/f_webp/q_5/dpr_auto/gom6ttbontznxjipsmpb.jpg",
-    "description": "A fun and visually appealing Tic Tac Toe game",
-    "skills": ["HTML5", "CSS", "Javascript"],
-    "demo": "https://tictact0egame.netlify.app/",
-    "source": "https://github.com/TaiwoOnileowo/Tic-Tac-Toe-game"
-  },
-  {
-    "title": "Newsletter Sign Up",
-    "imageSrc": "https://res.cloudinary.com/dixg66tpb/image/upload/f_webp/q_50/dpr_auto/fn4ig6fqtwxzfgcokf86.jpg",
-    "description": "A Newsletter Sign Up Form",
-    "skills": ["HTML5", "CSS", "Javascript"],
-    "demo": "https://newsletter-s1gn-up.netlify.app/",
-    "source": "https://github.com/TaiwoOnileowo/Newsletter-sign-up"
+    "imageSrc": "https://res.cloudinary.com/dixg66tpb/image/upload/f_webp/q_auto/dpr_auto/stiss3y0q8b3zdoykry2.jpg",
+    "description": "A fun and highly interactive Tic Tac Toe game",
+    "skills": ["HTML5", "CSS", "React"],
+    "demo": "https://t1ctactoegame.netlify.app/",
+    "source": "https://github.com/TaiwoOnileowo/Tictactoe-React"
   }
 ]

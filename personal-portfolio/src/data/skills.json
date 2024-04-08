@@ -20,16 +20,18 @@
       "imageSrc": "skills/nextjs.svg"
     },
     {
+      "title": "Wordpress",
+      "imageSrc": "skills/wordpress.png"
+    },
+    {
       "title": "Tailwind CSS",
       "imageSrc": "skills/tailwind-css-icon.png"
     },
+   
+    
     {
       "title": "Bootstrap",
       "imageSrc": "skills/bootstrap.png"
-    },
-    {
-      "title": "Wordpress",
-      "imageSrc": "skills/wordpress.png"
     },
     {
       "title": "Sanity",
@@ -44,10 +46,7 @@
       "title": "Figma",
       "imageSrc": "skills/figma.png"
     },
-    {
-      "title": "Canva",
-      "imageSrc": "skills/canva.png"
-    },
+    
     {
       "title": "Firebase",
       "imageSrc": "skills/firebase.png"

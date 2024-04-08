@@ -17,7 +17,7 @@ export const About = () => {
             <div className={styles.itemText}>
               <h3>Frontend Developer</h3>
               <p>
-                I am a skilled Frontend Developer with experience in developing
+                I am a skilled Frontend Developer with skill and experience in developing
                 responsive, modern and visually-appealing websites and web
                 applications.
               </p>

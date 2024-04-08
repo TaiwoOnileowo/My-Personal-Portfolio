@@ -37,19 +37,95 @@
   margin-bottom: 50px;
   max-width: 500px;
 }
-
+.buttons {
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
 .contactBtn {
   text-decoration: none;
   background-color: var(--color-primary);
   color: var(--color-text);
-  border-radius: 30px;
+  border-radius: 10px;
   font-weight: 600;
-  padding: 17px 26px;
+  font-size: 18px;
+  padding: 17px 0px;
+  width: 150px;
+  outline: none;
+  border: none;
+  cursor: pointer;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
   transition: background-color 0.3s ease-in-out;
+   position: relative;
 }
 .contactBtn:hover {
   background-color: #3a4d6e;
+}
+
+.resumeBtn {
+  text-decoration: none;
+  background-color: var(--color-primary);
+  color: var(--color-text);
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 17px 0px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  transition: background-color 0.3s ease-in-out;
+  margin-left: 40px;
+  border: none;
+  cursor: pointer;
+  width: 200px;
+  position: relative;
+}
+.resumeBtn:hover {
+  background-color: #3a4d6e;
+}
+.stickyResumeBtn{
+  text-decoration: none;
+  background-color: var(--color-primary);
+  color: var(--color-text);
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 2px 0px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  transition: background-color 0.3s ease-in-out;
+  margin-left: 40px;
+  border: none;
+  cursor: pointer;
+  width: 200px;
+  display: block;
+  position: fixed;
+  bottom:10px;
+transform: translateX(400px);
+
+}
+
+.stickyResumeBtn:hover{
+  background-color: #3a4d6e;
+}
+
+.downloadSpan {
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: opacity 0.3s ease, top 0.3s ease;
+}
+
+.downloadIcon {
+  width: 50px;
+  height: 45px;
+}
+
+.iconVisible {
+  opacity: 1;
+  top: 5px;
+}
+
+.iconHidden {
+  opacity: 0;
 }
 .heroImg {
   width: 50%;
@@ -110,5 +186,11 @@
   }
   .description {
     font-size: 25px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .description {
+    font-size: 25px;
+    padding: 0 20px;
   }
 }

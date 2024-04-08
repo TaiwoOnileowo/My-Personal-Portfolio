@@ -6,11 +6,11 @@ import styles from "./Experience.module.css"
 export const Experience=()=>{
     return (
         <section id="experience" className={styles.container}>
-            <div className={styles.text}>
-            <h2 className={styles.stack}>Stack</h2>
-            <h2 className={styles.experience}>Experience</h2>
+            
+            <div className={styles.skillcontent}>
+            <div>
+            <h2 className={styles.heading}>Stack</h2>
             </div>
-            <div className={styles.content}>
                 <div className={styles.skills}>
                     {
                 skills.map((skill, id)=>{
@@ -23,6 +23,11 @@ export const Experience=()=>{
                 })
                 }
                 </div>
+                </div>
+                <div className={styles.experiencecontent}>
+                    <div>
+                    <h2 className={styles.heading}>Experience</h2>
+                    </div>
                 <ul className={styles.history}>
                     {
                      history.map((historyItem, id)=>{

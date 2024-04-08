@@ -25,7 +25,7 @@
   color: #d9d9d9;
 }
 .image {
-  max-height: 135px;
+  max-height: 150px;
   width: 300px;
 }
 .description {
@@ -72,4 +72,14 @@
 }
 .link:hover {
   background-color: #3a4d6e;
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    max-width: 300px;
+  }
+  .image {
+    max-height: 135px;
+    width: 250px;
+  }
 }

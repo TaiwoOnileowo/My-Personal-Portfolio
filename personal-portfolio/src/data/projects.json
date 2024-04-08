@@ -8,6 +8,14 @@
     "source": "https://github.com/TaiwoOnileowo/Sparksitesstudios"
   },
   {
+    "title": "Deap Shopping Center",
+    "imageSrc": "https://res.cloudinary.com/dixg66tpb/image/upload/f_webp/q_5/dpr_auto/scx0tm7tvtnbjwfuwm7a.jpg",
+    "description": "An E-commerce website built with an Headless CMS Sanity",
+    "skills": ["Sanity","NextJs", "React", "Stripe","CSS"],
+    "demo": "https://deapshoppingcenter.netlify.app/",
+    "source": "https://github.com/TaiwoOnileowo/Deap-Shopping-Center"
+  },
+  {
     "title": "Hoobank",
     "imageSrc": "https://res.cloudinary.com/dixg66tpb/image/upload/f_webp/q_5/dpr_auto/fmayex6bw2l9apgdy5xe.jpg",
     "description": "A responsive modern landing page for Hoobank ",
@@ -16,28 +24,22 @@
     "source": "https://github.com/TaiwoOnileowo/Hoobank"
   },
   {
-    "title": "Deap Shopping Center",
-    "imageSrc": "https://res.cloudinary.com/dixg66tpb/image/upload/f_webp/q_5/dpr_auto/scx0tm7tvtnbjwfuwm7a.jpg",
-    "description": "An E-commerce website for Deap Shopping Center",
-    "skills": ["Next Js", "React","Sanity", "Stripe", "CSS"],
-    "demo": "https://deapshoppingcenter.netlify.app/",
-    "source": "https://github.com/TaiwoOnileowo/Deap-Shopping-Center"
-  },
-  {
     "title": "Rhoda Beddings",
     "imageSrc": "https://res.cloudinary.com/dixg66tpb/image/upload/f_webp/q_5/dpr_auto/tsaswg1uqoggkifqqgzz.jpg",
     "description": "Rhoda Beddings Official Website",
     "skills": ["Wordpress", "CSS"],
     "demo": "https://rhodabeddings.com.ng/"
   },
+ 
   {
-    "title": "React Component Library",
-    "imageSrc": "https://res.cloudinary.com/dixg66tpb/image/upload/f_webp/q_50/dpr_auto/c1vejdkpswslazieiyvb.jpg",
-    "description": "A reusable and customizable React Component Library",
-    "skills": ["React", "Storybook", "CSS Modules"],
-    "demo": "https://www.npmjs.com/package/react-component-library097",
-    "source": "https://github.com/TaiwoOnileowo/React-Component-Library"
+    "title": "Investment Calculator",
+    "imageSrc": "https://res.cloudinary.com/dixg66tpb/image/upload/f_webp/q_auto/dpr_auto/b4kwgd8s3b6mc0u3y5kh.jpg",
+    "description": "Effortlessly Calculate and Visualize Investment Returns",
+    "skills": ["React", "CSS"],
+    "demo": "https://1nvestmentcalculator.netlify.app/",
+    "source": "https://github.com/TaiwoOnileowo/Investment-Calculator"
   },
+ 
   {
     "title": "Drex Hosting Company",
     "imageSrc": "https://res.cloudinary.com/dixg66tpb/image/upload/f_webp/q_5/dpr_auto/p4htbieeavosiylffovm.jpg",

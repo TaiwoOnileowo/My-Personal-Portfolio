@@ -3,34 +3,35 @@
     "title": "SparkSites Studios",
     "imageSrc": "https://res.cloudinary.com/dixg66tpb/image/upload/f_webp/q_5/dpr_auto/zpz3gkcwobjupecrggdp.jpg",
     "description": "Sparksites Studios Official Website",
-    "skills": ["React", "Tailwind CSS", "Email js", "Cloudinary"],
+    "skills": ["React", "Tailwind CSS"],
     "demo": "https://sparksitesstudios.netlify.app/",
     "source": "https://github.com/TaiwoOnileowo/Sparksitesstudios"
   },
   {
+    "title": "The Learnact",
+    "imageSrc": "https://res.cloudinary.com/dixg66tpb/image/upload/f_webp/zkazjdbx1y804v1sqvee.jpg",
+    "description": "An LMS platform that offer courses on SDG goals",
+    "skills": ["WordPress", "PHP", "CSS"],
+    "demo": "https://thelearnact.com/"
+  },
+
+  {
     "title": "Deap Shopping Center",
     "imageSrc": "https://res.cloudinary.com/dixg66tpb/image/upload/f_webp/q_5/dpr_auto/scx0tm7tvtnbjwfuwm7a.jpg",
     "description": "An E-commerce website built with an Headless CMS Sanity",
-    "skills": ["Sanity","NextJs", "React", "Stripe","CSS"],
+    "skills": ["Sanity", "NextJs", "React", "Stripe", "CSS"],
     "demo": "https://deapshoppingcenter.netlify.app/",
     "source": "https://github.com/TaiwoOnileowo/Deap-Shopping-Center"
   },
-  {
-    "title": "Hoobank",
-    "imageSrc": "https://res.cloudinary.com/dixg66tpb/image/upload/f_webp/q_5/dpr_auto/fmayex6bw2l9apgdy5xe.jpg",
-    "description": "A responsive modern landing page for Hoobank ",
-    "skills": ["React", "Tailwind CSS", "CSS"],
-    "demo": "https://h00bankweb.netlify.app/",
-    "source": "https://github.com/TaiwoOnileowo/Hoobank"
-  },
+
   {
     "title": "Rhoda Beddings",
     "imageSrc": "https://res.cloudinary.com/dixg66tpb/image/upload/f_webp/q_5/dpr_auto/tsaswg1uqoggkifqqgzz.jpg",
     "description": "Rhoda Beddings Official Website",
-    "skills": ["Wordpress", "CSS"],
+    "skills": ["WordPress", "CSS"],
     "demo": "https://rhodabeddings.com.ng/"
   },
- 
+
   {
     "title": "Investment Calculator",
     "imageSrc": "https://res.cloudinary.com/dixg66tpb/image/upload/f_webp/q_auto/dpr_auto/b4kwgd8s3b6mc0u3y5kh.jpg",
@@ -39,14 +40,12 @@
     "demo": "https://1nvestmentcalculator.netlify.app/",
     "source": "https://github.com/TaiwoOnileowo/Investment-Calculator"
   },
- 
   {
-    "title": "Drex Hosting Company",
-    "imageSrc": "https://res.cloudinary.com/dixg66tpb/image/upload/f_webp/q_5/dpr_auto/p4htbieeavosiylffovm.jpg",
-    "description": "A responsive landing page for DREX Hosting and Domains",
-    "skills": ["React", "Tailwind CSS"],
-    "demo": "https://drexhosting.netlify.app/",
-    "source": "https://github.com/TaiwoOnileowo/DREX-hosting-and-domains"
+    "title": "Notes Editor",
+    "imageSrc": "https://res.cloudinary.com/dixg66tpb/image/upload/f_webp/q_5/dpr_auto/nx2f3m5dq1huivv7avtx.jpg",
+    "description": "A Custom Notes Editor",
+    "skills": ["HTML5", "CSS", "React", "Firebase"],
+    "demo": "https://noteseditor.netlify.app/",
+    "source": "https://github.com/TaiwoOnileowo/notes"
   }
- 
 ]

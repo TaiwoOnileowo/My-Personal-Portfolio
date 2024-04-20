@@ -10,7 +10,7 @@
   margin-left: 10%;
 }
 
-.content {
+.textContent {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -38,79 +38,40 @@
   max-width: 500px;
 }
 .buttons {
-  height: 60px;
   display: flex;
-  align-items: center;
+ align-items: center;
+  gap: 30px;
 }
 .contactBtn {
-  text-decoration: none;
   background-color: var(--color-primary);
   color: var(--color-text);
   border-radius: 10px;
   font-weight: 600;
   font-size: 18px;
   padding: 17px 0px;
-  width: 150px;
-  outline: none;
+  width: 200px;
   border: none;
   cursor: pointer;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
   transition: background-color 0.3s ease-in-out;
-   position: relative;
+  position: relative;
 }
 .contactBtn:hover {
   background-color: #3a4d6e;
 }
 
-.resumeBtn {
-  text-decoration: none;
-  background-color: var(--color-primary);
-  color: var(--color-text);
-  border-radius: 10px;
-  font-weight: 600;
-  font-size: 18px;
-  padding: 17px 0px;
-  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
-  transition: background-color 0.3s ease-in-out;
-  margin-left: 40px;
-  border: none;
-  cursor: pointer;
-  width: 200px;
-  position: relative;
-}
-.resumeBtn:hover {
-  background-color: #3a4d6e;
-}
-.stickyResumeBtn{
-  text-decoration: none;
-  background-color: var(--color-primary);
-  color: var(--color-text);
-  border-radius: 10px;
-  font-weight: 600;
-  font-size: 18px;
-  padding: 2px 0px;
-  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
-  transition: background-color 0.3s ease-in-out;
-  margin-left: 40px;
-  border: none;
-  cursor: pointer;
-  width: 200px;
-  display: block;
+.fixed {
   position: fixed;
-  bottom:10px;
-transform: translateX(400px);
-
+  bottom: 10px;
+  transform: translateX(-50%);
+  padding: 2px 0px;
 }
 
-.stickyResumeBtn:hover{
-  background-color: #3a4d6e;
-}
 
 .downloadSpan {
   position: absolute;
   top: -10px;
-  left: 50%;
-  transform: translateX(-50%);
+  right: 75px;
   transition: opacity 0.3s ease, top 0.3s ease;
 }
 
@@ -159,7 +120,7 @@ transform: translateX(400px);
   border-radius: 764px;
   background: rgba(25, 55, 109, 0.7);
   filter: blur(100px);
-  z-index: 0;
+  z-index: -100;
 }
 .BottomBlur {
   position: absolute;
@@ -172,13 +133,13 @@ transform: translateX(400px);
   border: 764px;
   background: rgba(25, 55, 109, 0.7);
   filter: blur(100px);
-  z-index: 0;
+  z-index: -100;
 }
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column-reverse;
   }
-  .content {
+  .textContent{
     align-items: center;
   }
   .title {
@@ -192,5 +153,32 @@ transform: translateX(400px);
   .description {
     font-size: 25px;
     padding: 0 20px;
+  }
+  .buttons{
+    margin: 0 10px;
+  }
+  .contactBtn {
+    
+    font-size: 16px;
+    
+    width: 160px;
+   
+  }
+  .container {
+
+    margin-left: 5%;
+  }
+  
+}
+@media screen and (max-width: 400px){
+  .contactBtn {
+    
+    font-size: 14px;
+    
+    width: 150px;
+   
+  }
+  .buttons{
+   gap:10px;
   }
 }

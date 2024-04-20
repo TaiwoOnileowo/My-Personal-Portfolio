@@ -1,30 +1,5 @@
 [
   {
-    "title": "Notes Editor",
-    "imageSrc": "https://res.cloudinary.com/dixg66tpb/image/upload/f_webp/q_5/dpr_auto/nx2f3m5dq1huivv7avtx.jpg",
-    "description": "A Custom Notes Editor",
-    "skills": ["HTML5", "CSS", "React", "Firebase"],
-    "demo": "https://noteseditor.netlify.app/",
-    "source": "https://github.com/TaiwoOnileowo/notes"
-  },
-
-  {
-    "title": "React Component Library",
-    "imageSrc": "https://res.cloudinary.com/dixg66tpb/image/upload/f_webp/q_50/dpr_auto/c1vejdkpswslazieiyvb.jpg",
-    "description": "A reusable and customizable React Component Library",
-    "skills": ["React", "Storybook", "CSS Modules"],
-    "demo": "https://www.npmjs.com/package/react-component-library097",
-    "source": "https://github.com/TaiwoOnileowo/React-Component-Library"
-  },
-  {
-    "title": "Tenzies",
-    "imageSrc": "https://res.cloudinary.com/dixg66tpb/image/upload/f_webp/q_20/dpr_auto/r8v79dppjn9p3x4qe17r.jpg",
-    "description": "A fun tenzies game",
-    "skills": ["HTML5", "CSS", "React"],
-    "demo": "https://tenz1ess.netlify.app/",
-    "source": "https://github.com/TaiwoOnileowo/Tenzies"
-  },
-  {
     "title": "Add To Cart App",
     "imageSrc": "https://res.cloudinary.com/dixg66tpb/image/upload/f_webp/q_50/dpr_auto/tvxw1dcmzxcnbdo5xm3b.jpg",
     "description": "A simple web application for managing a shopping list",
@@ -33,19 +8,43 @@
     "source": "https://github.com/TaiwoOnileowo/Add-To-Cart-App"
   },
   {
-    "title": "VueLamp Company Responsive Landing Page",
-    "imageSrc": "https://res.cloudinary.com/dixg66tpb/image/upload/f_webp/q_auto/dpr_auto/gxuiozy4lzqoxwxehchx.jpg",
-    "description": "A responsive landing page for Vuelamp",
-    "skills": ["HTML5", "CSS", "Javascript"],
-    "demo": "https://vuelamp-company-landingpage.netlify.app/",
-    "source": "https://github.com/TaiwoOnileowo/VueLamp-Company-Responsive-Landing-page"
+    "title": "Hoobank",
+    "imageSrc": "https://res.cloudinary.com/dixg66tpb/image/upload/f_webp/q_5/dpr_auto/fmayex6bw2l9apgdy5xe.jpg",
+    "description": "A responsive modern landing page for Hoobank ",
+    "skills": ["React", "Tailwind CSS"],
+    "demo": "https://h00bankweb.netlify.app/",
+    "source": "https://github.com/TaiwoOnileowo/Hoobank"
+  },
+  {
+    "title": "Drex Hosting Company",
+    "imageSrc": "https://res.cloudinary.com/dixg66tpb/image/upload/f_webp/q_5/dpr_auto/p4htbieeavosiylffovm.jpg",
+    "description": "A responsive landing page for DREX Hosting and Domains",
+    "skills": ["React", "Tailwind CSS"],
+    "demo": "https://drexhosting.netlify.app/",
+    "source": "https://github.com/TaiwoOnileowo/DREX-hosting-and-domains"
+  },
+  {
+    "title": "Tenzies",
+    "imageSrc": "https://res.cloudinary.com/dixg66tpb/image/upload/f_webp/q_20/dpr_auto/r8v79dppjn9p3x4qe17r.jpg",
+    "description": "A fun and interactive Tenzies game",
+    "skills": ["React", "CSS"],
+    "demo": "https://tenz1ess.netlify.app/",
+    "source": "https://github.com/TaiwoOnileowo/Tenzies"
+  },
+  {
+    "title": "React Component Library",
+    "imageSrc": "https://res.cloudinary.com/dixg66tpb/image/upload/f_webp/q_50/dpr_auto/c1vejdkpswslazieiyvb.jpg",
+    "description": "A reusable and customizable React Component Library",
+    "skills": ["React", "Storybook", "CSS Modules"],
+    "demo": "https://www.npmjs.com/package/react-component-library097",
+    "source": "https://github.com/TaiwoOnileowo/React-Component-Library"
   },
 
   {
     "title": "Tic Tac Toe Game",
     "imageSrc": "https://res.cloudinary.com/dixg66tpb/image/upload/f_webp/q_auto/dpr_auto/stiss3y0q8b3zdoykry2.jpg",
     "description": "A fun and highly interactive Tic Tac Toe game",
-    "skills": ["HTML5", "CSS", "React"],
+    "skills": ["React", "CSS"] ,
     "demo": "https://t1ctactoegame.netlify.app/",
     "source": "https://github.com/TaiwoOnileowo/Tictactoe-React"
   }

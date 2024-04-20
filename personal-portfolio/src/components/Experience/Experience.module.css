@@ -134,6 +134,14 @@
 }
 
 @media screen and (max-width: 599px) {
+  .historyItem {
+    flex-direction: column;
+    gap: 5px;
+    padding: 0px;
+  }
+  .historyItemDetails h3 {
+    margin-top: 5px;
+  }
   .skillcontent {
     max-width: 500px;
   }

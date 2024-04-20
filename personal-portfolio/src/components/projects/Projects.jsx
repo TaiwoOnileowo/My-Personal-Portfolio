@@ -19,7 +19,6 @@ export const Projects=()=>{
             !isNext ?
     projects.map((project,id)=>{
         return (
-
               <ProjectCard key={id} project={project} />
             
         );

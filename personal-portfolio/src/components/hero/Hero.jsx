@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import styles from "./Hero.module.css";
 import { IoCodeDownloadOutline } from "react-icons/io5";
 import { MdOutlineEmail } from "react-icons/md";
+
 export const Hero = () => {
   const [downloadResumeIsHovered, setDownloadResumeIsHovered] = useState(false);
   const [contactIsHovered, setContactIsHovered] = useState(false);
@@ -23,7 +24,8 @@ export const Hero = () => {
   }, []);
   return (
     <section className={styles.container}>
-      <div className={styles.content}>
+      <div>
+      <div className={styles.textContent}>
         <h1 className={styles.title}>
           Hello there!👋
           <br /> I'm Taiwo
@@ -35,7 +37,9 @@ export const Hero = () => {
           Tech trends. I would be happy to work with you. Reach out to get me on
           your team.
         </p>
-        <div className={styles.buttons}>
+        
+      </div>
+      <div className={styles.buttons}>
           <a href="mailto:taiwoonileowo17@gmail.com">
             <button
               className={styles.contactBtn}
@@ -49,17 +53,14 @@ export const Hero = () => {
               >
                 <MdOutlineEmail className={styles.downloadIcon} />
               </span>
-              <span className={contactIsHovered && styles.iconHidden}>
+              <span className={contactIsHovered ? styles.iconHidden : undefined}>
                 Contact Me
               </span>
             </button>
           </a>
-          <a
-            href="../../data/myResume.pdf"
-            download="Onileowo Taiwo's Resume.pdf"
-          >
+          <a href="/myResume.pdf" download="Onileowo Taiwo's Resume.pdf">
             <button
-              className={styles.resumeBtn}
+              className={styles.contactBtn}
               onMouseEnter={() => setDownloadResumeIsHovered(true)}
               onMouseLeave={() => setDownloadResumeIsHovered(false)}
             >
@@ -72,25 +73,23 @@ export const Hero = () => {
               >
                 <IoCodeDownloadOutline className={styles.downloadIcon} />
               </span>
-              <span className={downloadResumeIsHovered && styles.iconHidden}>
+              <span className={downloadResumeIsHovered ? styles.iconHidden : undefined}>
                 Download Resume
               </span>
             </button>
           </a>
         </div>
-        {displayDownloadResume && (
-          <a
-            href="../../data/myResume.pdf"
-            download="Onileowo Taiwo's Resume.pdf"
-          >
-            <button className={styles.stickyResumeBtn}>
-              <span>
-                <IoCodeDownloadOutline className={styles.downloadIcon} />
-              </span>
-            </button>
-          </a>
-        )}
       </div>
+      
+      {displayDownloadResume && (
+        <a href="/myResume.pdf" download="Onileowo Taiwo's Resume.pdf">
+          <button className={`${styles.contactBtn} ${styles.fixed}`}>
+            <span>
+              <IoCodeDownloadOutline className={styles.downloadIcon} />
+            </span>
+          </button>
+        </a>
+      )}
       <img
         src="https://res.cloudinary.com/dixg66tpb/image/upload/f_webp/q_auto/dpr_auto/lwfhqvfwk7d57sw786al.jpg"
         alt="Hero-image"

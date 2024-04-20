@@ -51,6 +51,21 @@
 .aboutItem:hover {
   background-size: 100% 100%;
 }
+.aboutItemAnimation {
+  animation: backgroundsize 0.8s ease-in-out;
+}
+
+@keyframes backgroundsize {
+  0% {
+    background-size: 0 100%;
+  }
+  50% {
+    background-size: 100% 100%;
+  }
+  100% {
+    background-size: 0% 100%;
+  }
+}
 
 .aboutItem h3 {
   font-size: 25px;

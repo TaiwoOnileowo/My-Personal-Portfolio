@@ -25,21 +25,20 @@ export const Hero = () => {
   return (
     <section className={styles.container}>
       <div>
-      <div className={styles.textContent}>
-        <h1 className={styles.title}>
-          Hello there!👋
-          <br /> I'm Taiwo
-        </h1>
-        <p className={styles.description}>
-          I'm a creative, skilled and dilligent Frontend Developer with great
-          skill in creating visualling appealing user-iterfaces and web
-          applications. I as well make sure I stay updated on latest Frontend
-          Tech trends. I would be happy to work with you. Reach out to get me on
-          your team.
-        </p>
-        
-      </div>
-      <div className={styles.buttons}>
+        <div className={styles.textContent}>
+          <h1 className={styles.title}>
+            Hello there!👋
+            <br /> I'm Taiwo
+          </h1>
+          <p className={styles.description}>
+            I am a Frontend Developer with expertise in modern web development. I
+            am experienced in using the best technologies to build quality
+            frontend applications I thrive in collaborative environments. I'm
+            committed to continuous learning and eager to tackle new challenges.
+            Let's connect and create something extraordinary together!
+          </p>
+        </div>
+        <div className={styles.buttons}>
           <a href="mailto:taiwoonileowo17@gmail.com">
             <button
               className={styles.contactBtn}
@@ -53,7 +52,9 @@ export const Hero = () => {
               >
                 <MdOutlineEmail className={styles.downloadIcon} />
               </span>
-              <span className={contactIsHovered ? styles.iconHidden : undefined}>
+              <span
+                className={contactIsHovered ? styles.iconHidden : undefined}
+              >
                 Contact Me
               </span>
             </button>
@@ -73,14 +74,18 @@ export const Hero = () => {
               >
                 <IoCodeDownloadOutline className={styles.downloadIcon} />
               </span>
-              <span className={downloadResumeIsHovered ? styles.iconHidden : undefined}>
+              <span
+                className={
+                  downloadResumeIsHovered ? styles.iconHidden : undefined
+                }
+              >
                 Download Resume
               </span>
             </button>
           </a>
         </div>
       </div>
-      
+
       {displayDownloadResume && (
         <a href="/myResume.pdf" download="Onileowo Taiwo's Resume.pdf">
           <button className={`${styles.contactBtn} ${styles.fixed}`}>

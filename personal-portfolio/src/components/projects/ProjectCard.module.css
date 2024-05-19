@@ -3,6 +3,7 @@
 .container {
   position: relative;
   display: flex;
+  align-items: center;
   flex-direction: column;
   border-radius: 10px;
   background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
@@ -23,10 +24,12 @@
   font-size: 25px;
   font-weight: 700;
   color: #d9d9d9;
+  margin-top: 2px;
 }
 .image {
-  max-height: 150px;
-  width: 300px;
+  height: 9.5rem;
+  width: 19rem;
+  
 }
 .description {
   margin-top: 6px;

@@ -1,27 +1,11 @@
 [
   {
-    "title": "Add To Cart App",
-    "imageSrc": "https://res.cloudinary.com/dixg66tpb/image/upload/f_webp/q_50/dpr_auto/tvxw1dcmzxcnbdo5xm3b.jpg",
-    "description": "A simple web application for managing a shopping list",
-    "skills": ["HTML5", "CSS", "Javascript", "Firebase"],
-    "demo": "https://add-t0-cart.netlify.app/",
-    "source": "https://github.com/TaiwoOnileowo/Add-To-Cart-App"
-  },
-  {
     "title": "Hoobank",
     "imageSrc": "https://res.cloudinary.com/dixg66tpb/image/upload/f_webp/q_5/dpr_auto/fmayex6bw2l9apgdy5xe.jpg",
     "description": "A responsive modern landing page for Hoobank ",
-    "skills": ["React", "Tailwind CSS"],
+    "skills": ["React", "TailwindCSS"],
     "demo": "https://h00bankweb.netlify.app/",
     "source": "https://github.com/TaiwoOnileowo/Hoobank"
-  },
-  {
-    "title": "Drex Hosting Company",
-    "imageSrc": "https://res.cloudinary.com/dixg66tpb/image/upload/f_webp/q_5/dpr_auto/p4htbieeavosiylffovm.jpg",
-    "description": "A responsive landing page for DREX Hosting and Domains",
-    "skills": ["React", "Tailwind CSS"],
-    "demo": "https://drexhosting.netlify.app/",
-    "source": "https://github.com/TaiwoOnileowo/DREX-hosting-and-domains"
   },
   {
     "title": "Tenzies",
@@ -39,13 +23,28 @@
     "demo": "https://www.npmjs.com/package/react-component-library097",
     "source": "https://github.com/TaiwoOnileowo/React-Component-Library"
   },
-
   {
-    "title": "Tic Tac Toe Game",
-    "imageSrc": "https://res.cloudinary.com/dixg66tpb/image/upload/f_webp/q_auto/dpr_auto/stiss3y0q8b3zdoykry2.jpg",
-    "description": "A fun and highly interactive Tic Tac Toe game",
-    "skills": ["React", "CSS"] ,
-    "demo": "https://t1ctactoegame.netlify.app/",
-    "source": "https://github.com/TaiwoOnileowo/Tictactoe-React"
+    "title": "Investment Calculator",
+    "imageSrc": "https://res.cloudinary.com/dixg66tpb/image/upload/f_webp/q_auto/dpr_auto/b4kwgd8s3b6mc0u3y5kh.jpg",
+    "description": "Effortlessly Calculate and Visualize Investment Returns",
+    "skills": ["React", "CSS"],
+    "demo": "https://1nvestmentcalculator.netlify.app/",
+    "source": "https://github.com/TaiwoOnileowo/Investment-Calculator"
+  },
+  {
+    "title": "Add To Cart App",
+    "imageSrc": "https://res.cloudinary.com/dixg66tpb/image/upload/f_webp/q_50/dpr_auto/tvxw1dcmzxcnbdo5xm3b.jpg",
+    "description": "A simple web application for managing a shopping list",
+    "skills": ["HTML5", "CSS", "Javascript", "Firebase"],
+    "demo": "https://add-t0-cart.netlify.app/",
+    "source": "https://github.com/TaiwoOnileowo/Add-To-Cart-App"
+  },
+  {
+    "title": "Space Tourism",
+    "imageSrc": "https://res.cloudinary.com/dixg66tpb/image/upload/f_webp/uhxkmkalzjbyhil0vbtp.jpg",
+    "description": "A Space Tourism Website",
+    "skills": ["React", "TailwindCSS"],
+    "demo": "https://spacet0urism.netlify.app/",
+    "source": "https://github.com/TaiwoOnileowo/Space-Tourism"
   }
 ]
